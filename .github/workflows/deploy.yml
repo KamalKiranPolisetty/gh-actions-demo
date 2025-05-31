@@ -22,4 +22,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.DEMO_SECRET }}
-          publish_dir: .
+          publish_dir: ./public
+
